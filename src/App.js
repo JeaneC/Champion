@@ -1,8 +1,12 @@
 import React, { Component } from 'react';
+import { injectGlobal } from 'styled-components';
 
+import IconFont from './iconfont/styles.css';
 import Header from './components/Header';
 import Main from './components/Main';
-import { injectGlobal } from 'styled-components';
+import Features from './components/Features';
+
+
 
 
 class App extends Component {
@@ -40,6 +44,7 @@ class App extends Component {
       <div>
         <Header />
         <Main />
+        <Features />
       </div>
     );
   }

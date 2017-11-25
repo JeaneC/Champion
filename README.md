@@ -1,1 +1,1 @@
-# Riot (React Design)
+# Champion (React Design)

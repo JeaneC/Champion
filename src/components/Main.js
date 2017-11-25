@@ -87,6 +87,7 @@ const Main = () => {
   `
   const Composition = styled.div`
     position: relative;
+    transition: transform 1s;
 
     &:hover, img:not(:hover) {
       transform: scale(.95);
